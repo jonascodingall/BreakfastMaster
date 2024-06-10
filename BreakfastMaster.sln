@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34518.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakfastMasterAPI", "BreakfastMasterAPI\BreakfastMasterAPI.csproj", "{2F4A0B13-44A3-4EEF-9074-97BBE844799B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D8B61FD6-2B37-4BF1-8054-F44DF6FF068A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F4A0B13-44A3-4EEF-9074-97BBE844799B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4A0B13-44A3-4EEF-9074-97BBE844799B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4A0B13-44A3-4EEF-9074-97BBE844799B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4A0B13-44A3-4EEF-9074-97BBE844799B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D72594D-F47B-481F-97C7-BBFF92E46055}
+	EndGlobalSection
+EndGlobal
